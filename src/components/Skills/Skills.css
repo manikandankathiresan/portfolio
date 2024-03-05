@@ -1,0 +1,24 @@
+.skills__list {
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list-item {
+  margin: 2em;
+}
+
+/* .skil {
+  padding: 2em;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  border: 3px solid transparent;
+  border-radius: 12px;
+  transform-origin: top bottom;
+} */
