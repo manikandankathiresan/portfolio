@@ -1,13 +1,14 @@
 import { useContext } from 'react'
-import { ThemeContext } from './contexts/theme'
-import Header from './components/Header/Header'
+import './App.css'
 import About from './components/About/About'
-import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import './App.css'
+import Header from './components/Header/Header'
+import Projects from './components/Projects/Projects'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Skills from './components/Skills/Skills'
+import { ThemeContext } from './contexts/theme'
+// import Honeres from './components/Honors'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -20,6 +21,7 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
+        {/* <Honers /> */}
         <Contact />
       </main>
 
