@@ -1,4 +1,5 @@
 import { useContext, useState } from 'react'
+import { Avatar } from '@material-ui/core'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -6,10 +7,14 @@ import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
+import profile from '../ProfileModal/Manikandan.jpg'
+import TransitionsModal from '../ProfileModal/ProfileModal'
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
   const [showNavList, setShowNavList] = useState(false)
+  const [open, setOpen] = useState(false)
+
 
   const toggleNavList = () => setShowNavList(!showNavList)
 
@@ -73,6 +78,16 @@ const Navbar = () => {
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
+
+      <div style={{ marginLeft: '20px', cursor: 'pointer' }}>
+        <Avatar
+          alt='Remy Sharp'
+          src={profile}
+          sx={{ width: 56, height: 56 }}
+          onClick={() => setOpen(true)}
+        />
+      </div>
+      <TransitionsModal open={open} setOpen={setOpen} />
     </nav>
   )
 }
