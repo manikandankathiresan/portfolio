@@ -13,7 +13,7 @@ import Mongodb from './components/Skills/img/mongo-db.png'
 const header = {
   // all the properties are optional - can be left empty or deleted
   // homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: '.js',
 }
 
 const about = {

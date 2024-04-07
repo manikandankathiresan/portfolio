@@ -12,7 +12,7 @@ const About = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}</span>{' '}
+          Hello, folks..! <br />I am <span className='about__name'>{name}</span>{' '}
           {/* <img
             src='https://em-content.zobj.net/source/telegram/386/man-technologist_1f468-200d-1f4bb.webp'
             alt=''
@@ -21,26 +21,26 @@ const About = () => {
         </h1>
       )}
       {role && <h2 className='about__role'>{`<> A ${role} </>`}</h2>}
-      🚀 Passionate React.js/Node.js Full Stack Developer 🚀
+        Passionate React.js/Node.js Full Stack Developer  
       <p className='about__desc'>
         <div>
-          {' '}
+ 
           🎯 As a dedicated Full Stack JavaScript Developer, I specialize in
           crafting innovative solutions with React.js and Node.js.{' '}
-        </div>{' '}
+        </div> 
         <br />
         <div>
-          {' '}
+ 
           🎯With a keen eye for detail and a knack for problem-solving, I craft
           robust and scalable web applications that deliver exceptional user
-          experiences.{' '}
+          experiences. 
         </div>
         <br />
         <div>
-          {' '}
+   
           🎯 With a passion for innovation, I deliver robust solutions that meet
           the demands of modern web development while ensuring an exceptional
-          user experience.{' '}
+          user experience.
         </div>
         <br />
       </p>

@@ -1,3 +1,10 @@
 .contact {
   flex-direction: column;
 }
+
+.contact_container{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
