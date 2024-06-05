@@ -34,52 +34,52 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Notes',
+    description:
+      'MERN Stack Notes Application – your go-to tool for easy and efficient note management. Built with the powerful MERN stack, this app offers a seamless and user-friendly experience for all your note-taking needs.',
+    stack: ['React', 'Redux', 'Node.js', 'Fastify.js', 'Mongodb'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
     name: 'Social login',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Firebase'],
-    sourceCode: 'https://github.com',
+      'Secure authentication with our Social Login React App. Integrated with Firebase, it supports Google, Meta, Twitter, and GitHub logins. Simplify user access and enhance security through OAuth integration, ensuring quick and convenient sign-ins for all users.     ',
+    stack: ['React', 'Redux', 'firebase'],
+    sourceCode: 'https://github.com/manikandankathiresan/react-social-login',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Image Slider',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Redux'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Application setup',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['React', 'Redux js-toolkit', 'Redux-saga'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'e-mart',
+    description: `    
+    I crafted a React.js e-commerce app with Stripe integration for secure transactions. Users effortlessly browse products, add to cart, and checkout. The Stripe API ensures a seamless payment process, emphasizing reliability and security for a smooth shopping experience.`,
+    stack: ['React', 'Redux js-toolkit', 'Redux-thunk'],
+    sourceCode: 'https://github.com/manikandankathiresan/stripe-payment-gatway',
+    livePreview: 'https://emart-shopy.netlify.app/',
   },
   {
     name: 'Weather App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Welcome to my Weather Application, a responsive web app providing real-time weather info using React JS and OpenWeather API. Access global weather data with intuitive search and dynamic visuals for a seamless and user-friendly experience.',
     stack: ['React', 'MUI'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/manikandankathiresan/weather',
+    livePreview: 'https://checkweather-v2.netlify.app/',
   },
   {
     name: 'Product API',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'I’ve created a RESTful API using Node.js. It supports CRUD operations, ensuring efficient data management and seamless integration. This scalable, robust API is designed for high performance and reliable handling of diverse requests.',
     stack: ['Node js', 'Express js', 'MongoDb'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/manikandankathiresan/product-api',
+    // livePreview: 'https://github.com',
   },
   {
     name: 'Wedding website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Node js', 'Express js', 'MongoDb'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'I created a wedding website for my friend, featuring event details, date and time with a countdown timer, RSVP functionality, a photo gallery, and a route map to the marriage venue for guests.',
+    stack: ['React', 'Bootstrap', 'SCSS'],
+    sourceCode: 'https://github.com/manikandankathiresan/siva-santhiya',
+    livePreview: 'https://manikandankathiresan.github.io/siva-santhiya/',
   },
 ]
 
@@ -146,6 +146,10 @@ const skills = [
   { name: 'Git', img: Git },
   { name: 'Github', img: Github },
   { name: 'Jira', img: 'https://cdn.worldvectorlogo.com/logos/jira-1.svg' },
+  { name: 'Prisma', img: 'https://cdn.worldvectorlogo.com/logos/prisma-2.svg' },
+  { name: 'Vite', img: 'https://cdn.worldvectorlogo.com/logos/vitejs.svg' },
+
+
 ]
 
 const contact = {
