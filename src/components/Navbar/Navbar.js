@@ -7,7 +7,7 @@ import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
-import profile from '../ProfileModal/Manikandan.jpg'
+import profile from '../ProfileModal/SRN_4556.JPG'
 import TransitionsModal from '../ProfileModal/ProfileModal'
 
 const Navbar = () => {

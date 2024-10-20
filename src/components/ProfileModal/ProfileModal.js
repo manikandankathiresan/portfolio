@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 import Fade from '@mui/material/Fade'
 import Modal from '@mui/material/Modal'
 import * as React from 'react'
-import profile from './Manikandan.jpg'
+import profile from './SRN_4556.JPG'
 import './profile.css'
 
 const style = {
