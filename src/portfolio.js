@@ -38,8 +38,8 @@ const projects = [
     description:
       'MERN Stack Notes Application – your go-to tool for easy and efficient note management. Built with the powerful MERN stack, this app offers a seamless and user-friendly experience for all your note-taking needs.',
     stack: ['React', 'Redux', 'Node.js', 'Fastify.js', 'Mongodb'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/manikandankathiresan/notes-app-ui',
+    livePreview: 'https://notes-app-ui-0dmx.onrender.com',
   },
   {
     name: 'Social login',
